@@ -1,0 +1,14 @@
+[0330/130452.564:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Z003r03h\AppData\Local\Temp\scoped_dir17488_11542352\Crashpad\reports\045d85e0-ddb7-4fa9-8473-dd043f01486b.dmp: The system cannot find the path specified. (0x3)
+[0330/130452.567:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0428/160902.933:ERROR:process_info.cc(617)] range at 0x9639bfd000, size 0x3000 fully unreadable
+[0428/160902.937:ERROR:process_info.cc(617)] range at 0x9631a0c000, size 0x1788 fully unreadable
+[0516/182128.870:ERROR:process_info.cc(626)] range at 0xc6e8ffd000, size 0x3000 partially unreadable
+[1020/140746.215:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/141306.783:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/141903.529:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/142559.061:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/214235.253:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/222222.220:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/112052.820:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/121453.515:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/123314.367:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

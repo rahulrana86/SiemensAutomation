@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 209.79 sec <<< FAILURE!
+caseFieldVerification(siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest)  Time elapsed: 149.915 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+	at siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification(VerifyCaseFieldsForProfilesTest.java:120)
+
