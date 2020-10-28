@@ -5,7 +5,7 @@
     <classes>
       <class name="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest">
         <methods>
-          <include name="probablityValidation" invocation-numbers="1 2"/>
+          <include name="probablityValidation" invocation-numbers="0 1 2"/>
           <include name="launchBrowser"/>
           <include name="tearDown"/>
           <include name="endReport"/>

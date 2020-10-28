@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-failed">Command line suite</span>
+              <span class="suite-name border-skipped">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,71 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">14 methods,  11 skipped,  3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Command_line_suite">
+                    <div class="method-list-content skipped suite-Command_line_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="caseFieldVerification(Brauburger, Oliver, PS CD Global Reporting Manager)">caseFieldVerification(Brauburger, Oliver, PS CD Global Reporting Manager)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)">caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )">caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="overAllTestResult">overAllTestResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )">probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)">probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )">probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)">probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest" hash-for-method="probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="testFailure">testFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,12 +165,17 @@
                     <div class="method-list-content passed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="overAllTestResult">overAllTestResult</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest" hash-for-method="testFailure">testFailure</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )">caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest" hash-for-method="caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)">caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -135,32 +190,68 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-failed">
+          <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
+              <span class="class-name">siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard ) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="caseFieldVerification(Brauburger, Oliver, PS CD Global Reporting Manager)">
-                  </a> <!-- caseFieldVerification(Brauburger, Oliver, PS CD Global Reporting Manager) -->
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business) -->
                   <span class="method-name">caseFieldVerification</span>
-                  <span class="parameters">(Brauburger, Oliver, PS CD Global Reporting Manager)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-	at siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification(VerifyCaseFieldsForProfilesTest.java:120)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard) -->
+                  <span class="method-name">caseFieldVerification</span>
+                  <span class="parameters">(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard ) -->
+                  <span class="method-name">caseFieldVerification</span>
+                  <span class="parameters">(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="overAllTestResult">
@@ -173,6 +264,70 @@
                   <a name="testFailure">
                   </a> <!-- testFailure -->
                   <span class="method-name">testFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )">
+                  </a> <!-- probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard ) -->
+                  <span class="method-name">probablityValidation</span>
+                  <span class="parameters">(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business) -->
+                  <span class="method-name">caseFieldVerification</span>
+                  <span class="parameters">(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard ) -->
+                  <span class="method-name">caseFieldVerification</span>
+                  <span class="parameters">(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)">
+                  </a> <!-- caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard) -->
+                  <span class="method-name">caseFieldVerification</span>
+                  <span class="parameters">(TestDataDoNotUse_PGSStandard, PG S standard)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,6 +344,9 @@
   &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;siemens.energy.org.crm.selenium.common.BaseTest&quot;/&gt;
+      &lt;class name=&quot;siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest&quot;/&gt;
+      &lt;class name=&quot;siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest&quot;/&gt;
+      &lt;class name=&quot;siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest&quot;/&gt;
       &lt;class name=&quot;siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
@@ -203,7 +361,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (2 classes)</span>
+                <span class="test-name">Command line test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,24 +387,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'caseFieldVerification')
-data.setCell(0, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
-data.setCell(0, 3, 149899);
+data.setCell(0, 2, 'siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest')
+data.setCell(0, 3, 4872);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testFailure')
-data.setCell(1, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'caseFieldVerification')
+data.setCell(1, 2, 'siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest')
+data.setCell(1, 3, 4503);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'overAllTestResult')
-data.setCell(2, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'caseFieldVerification')
+data.setCell(2, 2, 'siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest')
+data.setCell(2, 3, 4490);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'probablityValidation')
+data.setCell(3, 2, 'siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'probablityValidation')
+data.setCell(4, 2, 'siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'overAllTestResult')
+data.setCell(5, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'caseFieldVerification')
+data.setCell(6, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'probablityValidation')
+data.setCell(7, 2, 'siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'caseFieldVerification')
+data.setCell(8, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'probablityValidation')
+data.setCell(9, 2, 'siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'probablityValidation')
+data.setCell(10, 2, 'siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'caseFieldVerification')
+data.setCell(11, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFailure')
+data.setCell(12, 2, 'siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'probablityValidation')
+data.setCell(13, 2, 'siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest')
+data.setCell(13, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -261,9 +463,37 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Command_line_suite" class="panel">
@@ -272,29 +502,86 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">caseFieldVerification(Brauburger, Oliver, PS CD Global Reporting Manager)</span>
-                <span class="method-start">58987 ms</span>
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                <span class="method-start">49544 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testFailure</span>
-                <span class="method-start">208889 ms</span>
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                <span class="method-start">54417 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">overAllTestResult</span>
-                <span class="method-start">208890 ms</span>
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                <span class="method-start">58921 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">terminateBrowser</span>
-                <span class="method-start">208890 ms</span>
+                <span class="method-start">63411 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">63414 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                <span class="method-start">68991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                <span class="method-start">68993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                <span class="method-start">68994 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                <span class="method-start">69163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                <span class="method-start">69165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">probablityValidation(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                <span class="method-start">69169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGDRStandard, PG DR standard )</span>
+                <span class="method-start">69426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGEngineBusiness, PG Engine Business)</span>
+                <span class="method-start">69427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">caseFieldVerification(TestDataDoNotUse_PGSStandard, PG S standard)</span>
+                <span class="method-start">69427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">overAllTestResult</span>
+                <span class="method-start">69428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailure</span>
+                <span class="method-start">69428 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

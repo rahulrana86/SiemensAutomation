@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/11</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 23 17:51:43 IST 2019</td>
+<td>Started on:</td><td>Wed Oct 28 15:56:41 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>208 seconds (208898 ms)</td>
+<tr><td>Total time:</td><td>69 seconds (69440 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,32 +68,65 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest<br>Parameters: Brauburger, Oliver, PS CD Global Reporting Manager</td>
-<td><div><pre>java.lang.AssertionError: 
-	at siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification(VerifyCaseFieldsForProfilesTest.java:120)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace452364286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace452364286'><pre>java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
-	at siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification(VerifyCaseFieldsForProfilesTest.java:120)
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.launchBrowser()'><b>launchBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MD2KMYDC&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Z003r03h\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cec7f5bbedb9e8497d34df7da0f9e764
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at siemens.energy.org.crm.selenium.common.BaseTest.navigateToUrl(BaseTest.java:201)
+	at siemens.energy.org.crm.selenium.common.BaseTest.launchBrowser(BaseTest.java:180)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace164714495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace164714495'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MD2KMYDC&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Z003r03h\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cec7f5bbedb9e8497d34df7da0f9e764
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at siemens.energy.org.crm.selenium.common.BaseTest.navigateToUrl(BaseTest.java:201)
+	at siemens.energy.org.crm.selenium.common.BaseTest.launchBrowser(BaseTest.java:180)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
 	at org.testng.TestRunner.run(TestRunner.java:624)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
@@ -110,17 +143,85 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
-<td>149</td>
-<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@9f70c54</td></tr>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.launchBrowser()'><b>launchBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.launchBrowser()'><b>launchBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.tearDown()'><b>tearDown</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.terminateBrowser()'><b>terminateBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.terminateBrowser()'><b>terminateBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.terminateBrowser()'><b>terminateBrowser</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.common.BaseTest.endReport()'><b>endReport</b><br>Test class: siemens.energy.org.crm.selenium.common.BaseTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -130,15 +231,83 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest<br>Parameters: TestDataDoNotUse_PGDRStandard, PG DR standard </td>
+<td></td>
+<td>4</td>
+<td>siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest@3c09711b</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest<br>Parameters: TestDataDoNotUse_PGEngineBusiness, PG Engine Business</td>
+<td></td>
+<td>4</td>
+<td>siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest@3c09711b</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest<br>Parameters: TestDataDoNotUse_PGSStandard, PG S standard</td>
+<td></td>
+<td>4</td>
+<td>siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest@3c09711b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest<br>Parameters: TestDataDoNotUse_PGDRStandard, PG DR standard </td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest<br>Parameters: TestDataDoNotUse_PGEngineBusiness, PG Engine Business</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.caseFieldVerification()'><b>caseFieldVerification</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest<br>Parameters: TestDataDoNotUse_PGSStandard, PG S standard</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
 <td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.overAllTestResult()'><b>overAllTestResult</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</td>
 <td></td>
 <td>0</td>
-<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@9f70c54</td></tr>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest<br>Parameters: TestDataDoNotUse_PGDRStandard, PG DR standard </td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest<br>Parameters: TestDataDoNotUse_PGEngineBusiness, PG Engine Business</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest<br>Parameters: TestDataDoNotUse_PGSStandard, PG S standard</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest@5cc7c2a6</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest<br>Parameters: TestDataDoNotUse_PGDRStandard, PG DR standard </td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest<br>Parameters: TestDataDoNotUse_PGEngineBusiness, PG Engine Business</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
+<tr>
+<td title='siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest.probablityValidation()'><b>probablityValidation</b><br>Test class: siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest<br>Parameters: TestDataDoNotUse_PGSStandard, PG S standard</td>
+<td></td>
+<td>0</td>
+<td>siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest@b97c004</td></tr>
 <tr>
 <td title='siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest.testFailure()'><b>testFailure</b><br>Test class: siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest</td>
 <td></td>
 <td>0</td>
-<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@9f70c54</td></tr>
+<td>siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest@4590c9c3</td></tr>
 </table><p>
 </body>
 </html>

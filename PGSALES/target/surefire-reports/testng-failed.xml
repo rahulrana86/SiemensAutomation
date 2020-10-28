@@ -3,13 +3,30 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest">
+      <class name="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest">
         <methods>
-          <include name="caseFieldVerification" invocation-numbers="0"/>
+          <include name="probablityValidation"/>
+        </methods>
+      </class> <!-- siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest -->
+      <class name="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest">
+        <methods>
           <include name="launchBrowser"/>
           <include name="terminateBrowser"/>
         </methods>
+      </class> <!-- siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest -->
+      <class name="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest">
+        <methods>
+          <include name="testFailure"/>
+          <include name="caseFieldVerification"/>
+          <include name="overAllTestResult"/>
+        </methods>
       </class> <!-- siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest -->
+      <class name="siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest">
+        <methods>
+          <include name="probablityValidation"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
