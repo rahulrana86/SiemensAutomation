@@ -5,34 +5,10 @@
     <classes>
       <class name="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest">
         <methods>
-          <include name="probablityValidation" invocation-numbers="0 1 2"/>
+          <include name="probablityValidation"/>
           <include name="launchBrowser"/>
-          <include name="tearDown"/>
-          <include name="terminateBrowser"/>
         </methods>
       </class> <!-- siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest -->
-      <class name="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="terminateBrowser"/>
-        </methods>
-      </class> <!-- siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest -->
-      <class name="siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest">
-        <methods>
-          <include name="testFailure"/>
-          <include name="caseFieldVerification"/>
-          <include name="launchBrowser"/>
-          <include name="overAllTestResult"/>
-        </methods>
-      </class> <!-- siemens.energy.org.crm.selenium.test.VerifyCaseFieldsForProfilesTest -->
-      <class name="siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest">
-        <methods>
-          <include name="probablityValidation" invocation-numbers="0 1 2"/>
-          <include name="launchBrowser"/>
-          <include name="tearDown"/>
-          <include name="terminateBrowser"/>
-        </methods>
-      </class> <!-- siemens.energy.org.crm.selenium.test.CustomerPortalUserCreationTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
