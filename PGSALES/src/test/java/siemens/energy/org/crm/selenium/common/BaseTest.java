@@ -178,6 +178,7 @@ public class BaseTest
 		// Set default timeout for locating and element in the DOM (seconds)
 		driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 
+		driver.get("http://localhost:9515/");
 		// Navigate to saleforce page and login
 		navigateToUrl();
 		                                                
