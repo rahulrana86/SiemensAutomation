@@ -125,7 +125,7 @@ public class BaseTest
 		
 		// Create browser instance and invoke
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-		System.setProperty("webdriver.chrome.driver", "./Resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver", projectPath + "/Resources/chromedriver");
 		//System.setProperty("webdriver.chrome.driver", projectPath + "\\Resources\\chromedriver.exe");
 		//C:\Users\Z003r03h\eclipse-workspace\CEP\Resources\chromedriver.exe
 		
@@ -143,7 +143,7 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		
-		options.setHeadless(true);
+		//options.setHeadless(true);
 		//options.addArguments("--headless");
 	    options.addArguments("--disable-gpu");
 	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
