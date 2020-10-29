@@ -60,8 +60,10 @@ public class BaseTest
 		{
 			prop = new Properties();
 			try {
+//				FileInputStream propFile = new FileInputStream(
+//						projectPath + "\\src\\test\\java\\siemens\\energy\\org\\crm\\selenium\\common\\config.properties");
 				FileInputStream propFile = new FileInputStream(
-						projectPath + "\\src\\test\\java\\siemens\\energy\\org\\crm\\selenium\\common\\config.properties");
+						projectPath + "/src/test/java/siemens/energy/org/crm/selenium/common/config.properties");
 				prop = new Properties();
 				prop.load(propFile);
 			} 
@@ -123,8 +125,8 @@ public class BaseTest
 		
 		// Create browser instance and invoke
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-		System.setProperty("webdriver.chrome.driver", projectPath + "\\Resources\\chromedriver.exe");
-		
+		System.setProperty("webdriver.chrome.driver", projectPath + "/Resources/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", projectPath + "\\Resources\\chromedriver.exe");
 		//C:\Users\Z003r03h\eclipse-workspace\CEP\Resources\chromedriver.exe
 		
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();

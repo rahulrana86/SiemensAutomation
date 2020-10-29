@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)" parallel="methods">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest1">
+      <class name="siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest">
         <methods>
-          <include name="caseFieldVerification"/>
+          <include name="probablityValidation" invocation-numbers="1 2"/>
           <include name="launchBrowser"/>
           <include name="tearDown"/>
+          <include name="endReport"/>
           <include name="terminateBrowser"/>
-          <include name="startReport"/>
         </methods>
-      </class> <!-- siemens.energy.org.crm.selenium.test.CaseRoutingMatrixTest1 -->
+      </class> <!-- siemens.energy.org.crm.selenium.test.ProbabilityCalculationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
