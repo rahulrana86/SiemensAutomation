@@ -164,8 +164,9 @@ public class BaseTest
 		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
 		//options.setCapability(ChromeOptions.CAPABILITY, options);
 		//options.setExperimentalOption("useAutomationExtension", false);
-		
+	    options.setCapability("pageLoadStrategy", "normal");
 		driver = new ChromeDriver(options);
+		
 		driver.manage().deleteAllCookies();
 		
 //		Capabilities capb =((RemoteWebDriver) driver).getCapabilities();
@@ -176,7 +177,7 @@ public class BaseTest
 //		System.out.println("OS: "+os+ "\n" + "Browser Name: "+bromserName+ "\n" +"Browser Version: " +browserVersion+"\n");
 //		
 		// Set default timeout for locating and element in the DOM (seconds)
-		driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 
 		//driver.get("http://localhost:9515/");
 		// Navigate to saleforce page and login
