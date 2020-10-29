@@ -143,7 +143,7 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		
-		//options.setHeadless(true);
+		options.setHeadless(true);
 		//options.addArguments("--headless");
 	    options.addArguments("--disable-gpu");
 	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
