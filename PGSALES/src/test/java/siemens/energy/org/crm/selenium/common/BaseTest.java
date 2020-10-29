@@ -124,13 +124,13 @@ public class BaseTest
 		  extent.setSystemInfo("user", "Selenium TestUser");
 		
 		// Create browser instance and invoke
-		//System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-		System.setProperty("webdriver.chrome.driver", projectPath + "/Resources/chromedriver");
-		//System.setProperty("webdriver.chrome.driver", projectPath + "\\Resources\\chromedriver.exe");
+		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
+		//System.setProperty("webdriver.chrome.driver", projectPath + "/Resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver", projectPath + "\\Resources\\chromedriver.exe");
 		//C:\Users\Z003r03h\eclipse-workspace\CEP\Resources\chromedriver.exe
 		
-		//DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		//capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
+		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 	
 //		 DesiredCapabilities caps = new DesiredCapabilities();
 //	     caps.setCapability("username", "narverma@deloitte.de");
@@ -141,31 +141,31 @@ public class BaseTest
 
 //	     driver = new RemoteWebDriver(new URL("https://ondemand.saucelabs.com/wd/hub"), caps);
 		
-		//ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 		
 
 		//options.addArguments("--headless");
-//	    options.addArguments("--disable-gpu");
-//	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-//	    options.addArguments("--ignore-certificate-errors");
-//	    //options.addArguments("--incognito");
-//        options.addArguments("--disable-popup-blocking");
-//        options.addArguments("disable-infobars");
-//		options.addArguments("--disable-notifications");
-//		
-//	
-//		options.addArguments("start-maximized"); 
-//	    options.addArguments("enable-automation"); 
-//	    options.addArguments("--no-sandbox"); 
-//	  
-//	    options.addArguments("--disable-dev-shm-usage"); 
-//	    options.addArguments("--disable-browser-side-navigation"); 
-//	 
-//		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
-//		options.setCapability(ChromeOptions.CAPABILITY, options);
-//		options.setExperimentalOption("useAutomationExtension", false);
-//		
-		driver = new ChromeDriver();
+	    options.addArguments("--disable-gpu");
+	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+	    options.addArguments("--ignore-certificate-errors");
+	    //options.addArguments("--incognito");
+        options.addArguments("--disable-popup-blocking");
+        options.addArguments("disable-infobars");
+		options.addArguments("--disable-notifications");
+		
+	
+		options.addArguments("start-maximized"); 
+	    options.addArguments("enable-automation"); 
+	    options.addArguments("--no-sandbox"); 
+	  
+	    options.addArguments("--disable-dev-shm-usage"); 
+	    options.addArguments("--disable-browser-side-navigation"); 
+	 
+		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
+		options.setCapability(ChromeOptions.CAPABILITY, options);
+		options.setExperimentalOption("useAutomationExtension", false);
+		
+		driver = new ChromeDriver(options);
 		driver.manage().deleteAllCookies();
 		
 //		Capabilities capb =((RemoteWebDriver) driver).getCapabilities();
