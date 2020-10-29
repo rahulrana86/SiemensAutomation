@@ -60,10 +60,10 @@ public class BaseTest
 		{
 			prop = new Properties();
 			try {
-//				FileInputStream propFile = new FileInputStream(
-//						projectPath + "\\src\\test\\java\\siemens\\energy\\org\\crm\\selenium\\common\\config.properties");
 				FileInputStream propFile = new FileInputStream(
-						projectPath + "/src/test/java/siemens/energy/org/crm/selenium/common/config.properties");
+						projectPath + "\\src\\test\\java\\siemens\\energy\\org\\crm\\selenium\\common\\config.properties");
+				//FileInputStream propFile = new FileInputStream(
+					//	projectPath + "/src/test/java/siemens/energy/org/crm/selenium/common/config.properties");
 				prop = new Properties();
 				prop.load(propFile);
 			} 
