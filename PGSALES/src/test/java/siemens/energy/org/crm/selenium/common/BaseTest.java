@@ -143,7 +143,7 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		
-		//options.setHeadless(true);
+		options.setHeadless(true);
 		//options.addArguments("--headless");
 	    options.addArguments("--disable-gpu");
 	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
@@ -162,8 +162,8 @@ public class BaseTest
 	    options.addArguments("--disable-browser-side-navigation"); 
 	 
 		//options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		options.setCapability(ChromeOptions.CAPABILITY, options);
-		options.setExperimentalOption("useAutomationExtension", false);
+		//options.setCapability(ChromeOptions.CAPABILITY, options);
+		//options.setExperimentalOption("useAutomationExtension", false);
 		
 		driver = new ChromeDriver(options);
 		driver.manage().deleteAllCookies();
@@ -178,7 +178,7 @@ public class BaseTest
 		// Set default timeout for locating and element in the DOM (seconds)
 		driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 
-		driver.get("http://localhost:9515/");
+		//driver.get("http://localhost:9515/");
 		// Navigate to saleforce page and login
 		navigateToUrl();
 		                                                
