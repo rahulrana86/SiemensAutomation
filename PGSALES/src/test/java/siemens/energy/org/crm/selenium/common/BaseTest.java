@@ -143,8 +143,9 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		
-		options.setHeadless(true);
+		//options.setHeadless(true);
 		options.addArguments("--headless");
+		options.setAcceptInsecureCerts(true);
 	    options.addArguments("--disable-gpu");
 	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	    options.addArguments("--ignore-certificate-errors");

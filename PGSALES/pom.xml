@@ -124,6 +124,18 @@
 			<version>2.1</version>
 		</dependency>
 
+<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-api</artifactId>
+		<version>3.141.59</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+	<dependency>
+		<groupId>com.google.guava</groupId>
+		<artifactId>guava</artifactId>
+		<version>25.0-jre</version>
+	</dependency>
+
 		<!-- https://mvnrepository.com/artifact/javax.xml/jaxb-impl -->
 		<dependency>
 			<groupId>javax.xml</groupId>
