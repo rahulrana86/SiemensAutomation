@@ -143,13 +143,14 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		
-		//options.setHeadless(true);
+		options.setHeadless(true);
 		options.addArguments("--headless");
 	    options.addArguments("--disable-gpu");
 	    options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 	    options.addArguments("--ignore-certificate-errors");
 	    //options.addArguments("--incognito");
-		options.addArguments("window-size=1400,1500");
+		//options.addArguments("window-size=1400,1500");
+	    options.addArguments("--disable-extensions");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("disable-infobars");
 		options.addArguments("--disable-notifications");
